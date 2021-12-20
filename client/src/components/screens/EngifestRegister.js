@@ -77,7 +77,7 @@ const EngifestRegister = () => {
           />
         </div>
         <button type="submit" className="btn btn-primary">
-          Register
+          Register/Download PDF
         </button>
       </form>
     </div>
