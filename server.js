@@ -19,7 +19,7 @@ process.on("uncaughtRejection", (err) => {
   console.log("UNCAUGHT REJECTION! SHUTTING DOWN");
   process.exit(1);
 });
-
+ 
 connectDB();
 
 const pdfTemplate = require("./documents");
